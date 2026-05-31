@@ -31,11 +31,11 @@ int main()
 
     //------------------------------
 
-    int age1 = 22;
-    cout << age1 << endl; // 22
+    int age = 22;
+    cout << age << endl; // 22
 
-    int age2 = 44;
-    cout << age2 << endl; // 44
+    age = 44;
+    cout << age << endl; // 44
     //------------------------------
 
     int Age = 44;
@@ -97,22 +97,32 @@ int main()
     cout << letter1 << letter2 << letter3 << " reversed is "
          << letter3 << letter2 << letter1 << endl;
 
-    //------------------------------
+    //------------------------------------------------------- Naming Variables
+    //-- use unique names (id unique in the scope)
+    //-- use descriptive names
+    // -- rules:
+    //***********
+    //-- start with letter or _
+    //-- include numbers or _
+    //-- case sensetive
+    //-- Can not use: spaces 0r special char or reserved words.
+    //----------------------------------------------------------
     //  int age =10, Age=50;
     //  int My age;
     //  my-age;
     //  int _age;
     //  string 5name;
-    //  string name;
+    //  string name5;
     //  string @name;
     //  string amount#;
     //  string sales&amount;
     //  int for;
     //  int string;
-    //------------------------------
+    //-----------------------------------------------------------
 
+    // const: read only variable
     const int num = 15;
-    // num=11;                //YOU CAN't
+    // num=11;                //YOU CAN't BE MODIFIED
 
     //-----------------------------
 

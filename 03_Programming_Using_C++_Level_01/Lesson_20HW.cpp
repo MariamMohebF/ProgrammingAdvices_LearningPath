@@ -19,16 +19,16 @@ int main()
     // int a, b;
 
     // cout << "plz enter the first number a?" << endl;
-    // cin >> a;
+    // cin >> a;  // 9
 
     // cout << "plz enter the second number b?" << endl;
-    // cin >> b;
+    // cin >> b;  // 2
 
-    // cout << "a + b = " << a + b << endl;
-    // cout << "a - b = " << a - b << endl;
-    // cout << "a * b = " << a * b << endl;
-    // cout << "a / b = " << a / b << endl;
-    // cout << "a % b = " << a % b << endl;
+    // cout << "a + b = " << a + b << endl; // 12
+    // cout << "a - b = " << a - b << endl; // 7
+    // cout << "a * b = " << a * b << endl; // 18
+    // cout << "a / b = " << a / b << endl; //4 not 4.5 because it is not float
+    // cout << "a % b = " << a % b << endl; // 1
 
 #pragma endregion
 

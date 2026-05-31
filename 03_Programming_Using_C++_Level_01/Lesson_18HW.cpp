@@ -72,6 +72,8 @@ int main()
     cout << n3 << endl;
     cout << "---------------" << endl;
     cout << "Total = " << sum << endl;
+    // or
+    // cout << n1 + n2 + n3 << endl;
 
 #pragma endregion
 
@@ -79,12 +81,15 @@ int main()
 
 #pragma region
 
-    int yourAgeNow;
+    int yourAgeNow, ageafter5years = 5 + yourAgeNow;
+    ;
 
     cout << "plz enter your age \n";
     cin >> yourAgeNow;
 
     cout << "After 5 years you will be " << yourAgeNow + 5 << " years old." << endl;
+    // or
+    // cout << "After 5 years you will be " << ageafter5years << " years old." << endl;
 
 #pragma endregion
 
